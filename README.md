@@ -50,11 +50,6 @@ First 5 requests → 200 OK
 After limit exceeded → 429 Too Many Requests
 
 ## 📥 Add to Your Maven Project (via JitPack)
-
-Follow these 3 quick steps to integrate **SentinelRateLimiter** into your Spring Boot project.
-
----
-## 📥 Add to Your Maven Project (via JitPack)
 Follow these 3 quick steps to integrate **SentinelRateLimiter** into your Spring Boot project.
 🟩 Step 1 — Add JitPack repository
 
