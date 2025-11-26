@@ -53,28 +53,30 @@ After limit exceeded → 429 Too Many Requests
 Step 1 — Add JitPack repository
 xml
 Copy code
-<repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-</repositories>
++<repositories>
++    <repository>
++        <id>jitpack.io</id>
++        <url>https://jitpack.io</url>
++    </repository>
++</repositories>
+
 Step 2 — Add the dependency
 xml
 Copy code
-<dependency>
-    <groupId>com.github.JitenkumarTayade</groupId>
-    <artifactId>SentinelRateLimiter</artifactId>
-    <version>v0.0.1</version>
-</dependency>
++<dependency>
++    <groupId>com.github.JitenkumarTayade</groupId>
++    <artifactId>SentinelRateLimiter</artifactId>
++    <version>v0.0.1</version>
++</dependency>
+
 Step 3 — Optional configuration
 yaml
 Copy code
-ratelimiter:
-  enabled: true
-  limit: 5
-  window-seconds: 30
-  key-header: X-API-KEY
++ratelimiter:
++  enabled: true
++  limit: 5
++  window-seconds: 30
++  key-header: X-API-KEY
 
 ---
 
