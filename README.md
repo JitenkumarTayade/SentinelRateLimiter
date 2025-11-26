@@ -75,48 +75,18 @@ ratelimiter:
   limit: 5
   window-seconds: 30
   key-header: X-API-KEY
-📷 Snapshots
-You should absolutely include screenshots — it increases developer trust and shows proof your package works.
 
-(You may upload images using GitHub’s drag-and-drop markdown image uploader.)
 
+📷 Snapshots : 
 1️⃣ IDE — Application Successfully Started (Tomcat running)
-Insert screenshot here
-Example:
+<img width="1920" height="1030" alt="intelliJ server started , project running status" src="https://github.com/user-attachments/assets/bb6acdb5-2fec-4916-bbbf-de51f693e425" />
 
-Spring Boot banner
-
-Tomcat started on port 8080
-
-Initialization logs
-
-scss
-Copy code
-![IDE Startup Screenshot](images/ide-startup.png)
 2️⃣ Terminal — Build Success
-Insert screenshot here
-Recommended screenshot:
+<img width="1920" height="771" alt="4" src="https://github.com/user-attachments/assets/5825477c-bc7e-48f4-8cbb-d547abc75734" />
 
-Maven build success
-
-Module compilation
-
-No errors
-
-scss
-Copy code
-![Terminal Build Success](images/build-success.png)
 3️⃣ Result — Rate Limit Response (Browser/Terminal)
-Insert screenshot here
-Include BOTH:
+<img width="1920" height="1031" alt="2  Result - limit exceed snapshot" src="https://github.com/user-attachments/assets/ca8b8ec6-d0e0-463c-b59a-85a38e3c96da" />
 
-Successful response (200)
-
-Rate-limited response (429)
-
-scss
-Copy code
-![Rate Limit Response](images/rate-limit-response.png)
 🔬 How It Works (Deep Dive)
 This starter registers an auto-configured servlet filter:
 
