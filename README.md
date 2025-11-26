@@ -84,22 +84,22 @@ Below are visual snapshots showing the project in action.
 These help developers quickly understand how the rate limiter behaves during runtime.
 
 ### 1️⃣ IDE — Application Startup (Spring Boot + Tomcat Running)
-![IDE Startup](https://raw.githubusercontent.com/JitenkumarTayade/SentinelRateLimiter/main/images/intelliJ server started , project running status.png)
+![IDE Startup](https://raw.githubusercontent.com/JitenkumarTayade/SentinelRateLimiter/main/assest/intelliJ server started , project running status.png)
 
 ---
 
 ### 2️⃣ Terminal — Maven Build Success
-![Build Success](https://raw.githubusercontent.com/JitenkumarTayade/SentinelRateLimiter/main/images/2.png)
+![Build Success](https://raw.githubusercontent.com/JitenkumarTayade/SentinelRateLimiter/main/assest/2.png)
 
 ---
 
 ### 3️⃣ Pre-Result — Requests Within Allowed Limit
-![Allowed Requests](https://raw.githubusercontent.com/JitenkumarTayade/SentinelRateLimiter/main/images/1. Pre-result - without crossing set limit.png)
+![Allowed Requests](https://raw.githubusercontent.com/JitenkumarTayade/SentinelRateLimiter/main/assest/1. Pre-result - without crossing set limit.png)
 
 ---
 
 ### 4️⃣ Result — Rate Limit Exceeded (HTTP 429 Snapshot)
-![Rate Limit Exceeded](https://raw.githubusercontent.com/JitenkumarTayade/SentinelRateLimiter/main/images/2. Result - limit exceed snapshot.png)
+![Rate Limit Exceeded](https://raw.githubusercontent.com/JitenkumarTayade/SentinelRateLimiter/main/assest/2. Result - limit exceed snapshot.png)
 
 ---
 
