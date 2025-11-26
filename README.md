@@ -54,8 +54,9 @@ After limit exceeded → 429 Too Many Requests
 Follow these 3 quick steps to integrate **SentinelRateLimiter** into your Spring Boot project.
 
 ---
-
-### 🟩 Step 1 — Add JitPack repository
+## 📥 Add to Your Maven Project (via JitPack)
+Follow these 3 quick steps to integrate **SentinelRateLimiter** into your Spring Boot project.
+🟩 Step 1 — Add JitPack repository
 
 ```diff
  <repositories>
@@ -139,23 +140,24 @@ You can easily swap in a Redis-backed store to support distributed systems.
 
 📈 Roadmap
 Redis backend support
-
 Token bucket algorithm
-
 Custom exception handler
-
 Actuator metrics
-
 Annotations support (@RateLimit)
-
 GitHub Actions release pipeline
+
+
 
 🤝 Contributing
 Pull requests are welcome!
 If you want to discuss a feature or enhancement, open an issue first.
 
+
+
 📜 License
 MIT License — feel free to use commercially.
+
+
 
 👤 Author
 Jitenkumar Tayade
