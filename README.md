@@ -76,16 +76,32 @@ ratelimiter:
   window-seconds: 30
   key-header: X-API-KEY
 
+---
 
-📷 Snapshots : 
-1️⃣ IDE — Application Successfully Started (Tomcat running)
-<img width="1920" height="1030" alt="intelliJ server started , project running status" src="https://github.com/user-attachments/assets/bb6acdb5-2fec-4916-bbbf-de51f693e425" />
+## 📷 Snapshots
 
-2️⃣ Terminal — Build Success
-<img width="1920" height="771" alt="4" src="https://github.com/user-attachments/assets/5825477c-bc7e-48f4-8cbb-d547abc75734" />
+Below are visual snapshots showing the project in action.  
+These help developers quickly understand how the rate limiter behaves during runtime.
 
-3️⃣ Result — Rate Limit Response (Browser/Terminal)
-<img width="1920" height="1031" alt="2  Result - limit exceed snapshot" src="https://github.com/user-attachments/assets/ca8b8ec6-d0e0-463c-b59a-85a38e3c96da" />
+### 1️⃣ IDE — Application Startup (Spring Boot + Tomcat Running)
+![IDE Startup](https://raw.githubusercontent.com/JitenkumarTayade/SentinelRateLimiter/main/images/intelliJ server started , project running status.png)
+
+---
+
+### 2️⃣ Terminal — Maven Build Success
+![Build Success](https://raw.githubusercontent.com/JitenkumarTayade/SentinelRateLimiter/main/images/2.png)
+
+---
+
+### 3️⃣ Pre-Result — Requests Within Allowed Limit
+![Allowed Requests](https://raw.githubusercontent.com/JitenkumarTayade/SentinelRateLimiter/main/images/1. Pre-result - without crossing set limit.png)
+
+---
+
+### 4️⃣ Result — Rate Limit Exceeded (HTTP 429 Snapshot)
+![Rate Limit Exceeded](https://raw.githubusercontent.com/JitenkumarTayade/SentinelRateLimiter/main/images/2. Result - limit exceed snapshot.png)
+
+---
 
 🔬 How It Works (Deep Dive)
 This starter registers an auto-configured servlet filter:
