@@ -49,34 +49,35 @@ First 5 requests → 200 OK
 
 After limit exceeded → 429 Too Many Requests
 
-📥 Add to Your Maven Project (via JitPack)
-Step 1 — Add JitPack repository
-xml
-Copy code
-+<repositories>
-+    <repository>
-+        <id>jitpack.io</id>
-+        <url>https://jitpack.io</url>
-+    </repository>
-+</repositories>
+## 📥 Add to Your Maven Project (via JitPack)
 
-Step 2 — Add the dependency
-xml
-Copy code
-+<dependency>
-+    <groupId>com.github.JitenkumarTayade</groupId>
-+    <artifactId>SentinelRateLimiter</artifactId>
-+    <version>v0.0.1</version>
-+</dependency>
+Follow these 3 quick steps to integrate **SentinelRateLimiter** into your Spring Boot project.
 
-Step 3 — Optional configuration
-yaml
-Copy code
-+ratelimiter:
-+  enabled: true
-+  limit: 5
-+  window-seconds: 30
-+  key-header: X-API-KEY
+---
+
+### 🟩 Step 1 — Add JitPack repository
+
+```diff
++ <repositories>
++     <repository>
++         <id>jitpack.io</id>
++         <url>https://jitpack.io</url>
++     </repository>
++ </repositories>
+
+🟩 Step 2 — Add the dependency
++ <dependency>
++     <groupId>com.github.JitenkumarTayade</groupId>
++     <artifactId>SentinelRateLimiter</artifactId>
++     <version>v0.0.1</version>
++ </dependency>
+
+🟩 Step 3 — Optional configuration (YAML)
++ ratelimiter:
++   enabled: true
++   limit: 5
++   window-seconds: 30
++   key-header: X-API-KEY
 
 ---
 
