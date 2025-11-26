@@ -1,0 +1,4 @@
+/human
+- Framework highlight: Built as a Maven multi-module Spring Boot project (Spring Boot 3, auto-configuration). Library module (ratelimiter) is a reusable starter; demo module shows integration. This structure proves you can design and ship a production-style library, not just an app.
+
+- Matrix highlight: Concurrency & reliability matrix — thread-safe in-memory fixed-window algorithm for single-node use; config-driven (limit/window/key); clearly separable to add Redis/token-bucket for distributed and high-throughput use. Shows system-level tradeoffs and scalability path.

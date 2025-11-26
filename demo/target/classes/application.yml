@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+ratelimiter:
+  enabled: true
+  limit: 5
+  window-seconds: 30
+  key-header: X-API-KEY
